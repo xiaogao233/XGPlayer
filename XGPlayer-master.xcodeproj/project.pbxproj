@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2077AC91F39D14800B0A8D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2077AC81F39D14800B0A8D5 /* main.m */; };
+		F2077ACC1F39D14800B0A8D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2077ACB1F39D14800B0A8D5 /* AppDelegate.m */; };
+		F2077ACF1F39D14800B0A8D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2077ACE1F39D14800B0A8D5 /* ViewController.m */; };
+		F2077AD41F39D14800B0A8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2077AD31F39D14800B0A8D5 /* Assets.xcassets */; };
+		F2077AD71F39D14800B0A8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2077AD51F39D14800B0A8D5 /* LaunchScreen.storyboard */; };
+		F2077AE21F39D7E100B0A8D5 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2077AE11F39D7E100B0A8D5 /* BaseNavigationController.m */; };
+		F2077AE51F39D9F700B0A8D5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2077AE41F39D9F700B0A8D5 /* SecondViewController.m */; };
+		F23D2D2D1F57B98B00771D22 /* CALayer+XGRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D191F57B98B00771D22 /* CALayer+XGRotateAnimation.m */; };
+		F23D2D2E1F57B98B00771D22 /* UINavigationController+XGRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D1B1F57B98B00771D22 /* UINavigationController+XGRotation.m */; };
+		F23D2D2F1F57B98B00771D22 /* UIViewController+XGRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D1D1F57B98B00771D22 /* UIViewController+XGRotation.m */; };
+		F23D2D301F57B98B00771D22 /* XGPlayerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D201F57B98B00771D22 /* XGPlayerHandler.m */; };
+		F23D2D311F57B98B00771D22 /* XGPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D241F57B98B00771D22 /* XGPlayerControlView.m */; };
+		F23D2D321F57B98B00771D22 /* XGPlayerFullScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D261F57B98B00771D22 /* XGPlayerFullScreenController.m */; };
+		F23D2D331F57B98B00771D22 /* XGPlayerTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D281F57B98B00771D22 /* XGPlayerTransitionAnimator.m */; };
+		F23D2D341F57B98B00771D22 /* XGPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D2A1F57B98B00771D22 /* XGPlayerView.m */; };
+		F23D2D351F57B98B00771D22 /* XGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D2D2C1F57B98B00771D22 /* XGPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2077AC41F39D14800B0A8D5 /* XGPlayer-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XGPlayer-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2077AC81F39D14800B0A8D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2077ACA1F39D14800B0A8D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2077ACB1F39D14800B0A8D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2077ACD1F39D14800B0A8D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2077ACE1F39D14800B0A8D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2077AD31F39D14800B0A8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2077AD61F39D14800B0A8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2077AD81F39D14800B0A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2077AE01F39D7E100B0A8D5 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		F2077AE11F39D7E100B0A8D5 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		F2077AE31F39D9F700B0A8D5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F2077AE41F39D9F700B0A8D5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F23D2D181F57B98B00771D22 /* CALayer+XGRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XGRotateAnimation.h"; sourceTree = "<group>"; };
+		F23D2D191F57B98B00771D22 /* CALayer+XGRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XGRotateAnimation.m"; sourceTree = "<group>"; };
+		F23D2D1A1F57B98B00771D22 /* UINavigationController+XGRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XGRotation.h"; sourceTree = "<group>"; };
+		F23D2D1B1F57B98B00771D22 /* UINavigationController+XGRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XGRotation.m"; sourceTree = "<group>"; };
+		F23D2D1C1F57B98B00771D22 /* UIViewController+XGRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XGRotation.h"; sourceTree = "<group>"; };
+		F23D2D1D1F57B98B00771D22 /* UIViewController+XGRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XGRotation.m"; sourceTree = "<group>"; };
+		F23D2D1F1F57B98B00771D22 /* XGPlayerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerHandler.h; sourceTree = "<group>"; };
+		F23D2D201F57B98B00771D22 /* XGPlayerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayerHandler.m; sourceTree = "<group>"; };
+		F23D2D211F57B98B00771D22 /* XGPlayerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerHeader.h; sourceTree = "<group>"; };
+		F23D2D231F57B98B00771D22 /* XGPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerControlView.h; sourceTree = "<group>"; };
+		F23D2D241F57B98B00771D22 /* XGPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayerControlView.m; sourceTree = "<group>"; };
+		F23D2D251F57B98B00771D22 /* XGPlayerFullScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerFullScreenController.h; sourceTree = "<group>"; };
+		F23D2D261F57B98B00771D22 /* XGPlayerFullScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayerFullScreenController.m; sourceTree = "<group>"; };
+		F23D2D271F57B98B00771D22 /* XGPlayerTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerTransitionAnimator.h; sourceTree = "<group>"; };
+		F23D2D281F57B98B00771D22 /* XGPlayerTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayerTransitionAnimator.m; sourceTree = "<group>"; };
+		F23D2D291F57B98B00771D22 /* XGPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayerView.h; sourceTree = "<group>"; };
+		F23D2D2A1F57B98B00771D22 /* XGPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayerView.m; sourceTree = "<group>"; };
+		F23D2D2B1F57B98B00771D22 /* XGPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPlayer.h; sourceTree = "<group>"; };
+		F23D2D2C1F57B98B00771D22 /* XGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2077AC11F39D14800B0A8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2077ABB1F39D14800B0A8D5 = {
+			isa = PBXGroup;
+			children = (
+				F2077AC61F39D14800B0A8D5 /* XGPlayer-master */,
+				F2077AC51F39D14800B0A8D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2077AC51F39D14800B0A8D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2077AC41F39D14800B0A8D5 /* XGPlayer-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2077AC61F39D14800B0A8D5 /* XGPlayer-master */ = {
+			isa = PBXGroup;
+			children = (
+				F23D2D161F57B98B00771D22 /* XGPlayer */,
+				F2077ADF1F39D7AB00B0A8D5 /* Other */,
+				F2077ACA1F39D14800B0A8D5 /* AppDelegate.h */,
+				F2077ACB1F39D14800B0A8D5 /* AppDelegate.m */,
+				F2077ACD1F39D14800B0A8D5 /* ViewController.h */,
+				F2077ACE1F39D14800B0A8D5 /* ViewController.m */,
+				F2077AD31F39D14800B0A8D5 /* Assets.xcassets */,
+				F2077AD51F39D14800B0A8D5 /* LaunchScreen.storyboard */,
+				F2077AD81F39D14800B0A8D5 /* Info.plist */,
+				F2077AC71F39D14800B0A8D5 /* Supporting Files */,
+			);
+			path = "XGPlayer-master";
+			sourceTree = "<group>";
+		};
+		F2077AC71F39D14800B0A8D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2077AC81F39D14800B0A8D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2077ADF1F39D7AB00B0A8D5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F2077AE01F39D7E100B0A8D5 /* BaseNavigationController.h */,
+				F2077AE11F39D7E100B0A8D5 /* BaseNavigationController.m */,
+				F2077AE31F39D9F700B0A8D5 /* SecondViewController.h */,
+				F2077AE41F39D9F700B0A8D5 /* SecondViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F23D2D161F57B98B00771D22 /* XGPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F23D2D171F57B98B00771D22 /* Category */,
+				F23D2D1E1F57B98B00771D22 /* Other */,
+				F23D2D221F57B98B00771D22 /* View */,
+				F23D2D2B1F57B98B00771D22 /* XGPlayer.h */,
+				F23D2D2C1F57B98B00771D22 /* XGPlayer.m */,
+			);
+			path = XGPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		F23D2D171F57B98B00771D22 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F23D2D181F57B98B00771D22 /* CALayer+XGRotateAnimation.h */,
+				F23D2D191F57B98B00771D22 /* CALayer+XGRotateAnimation.m */,
+				F23D2D1A1F57B98B00771D22 /* UINavigationController+XGRotation.h */,
+				F23D2D1B1F57B98B00771D22 /* UINavigationController+XGRotation.m */,
+				F23D2D1C1F57B98B00771D22 /* UIViewController+XGRotation.h */,
+				F23D2D1D1F57B98B00771D22 /* UIViewController+XGRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F23D2D1E1F57B98B00771D22 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F23D2D1F1F57B98B00771D22 /* XGPlayerHandler.h */,
+				F23D2D201F57B98B00771D22 /* XGPlayerHandler.m */,
+				F23D2D211F57B98B00771D22 /* XGPlayerHeader.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F23D2D221F57B98B00771D22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F23D2D231F57B98B00771D22 /* XGPlayerControlView.h */,
+				F23D2D241F57B98B00771D22 /* XGPlayerControlView.m */,
+				F23D2D251F57B98B00771D22 /* XGPlayerFullScreenController.h */,
+				F23D2D261F57B98B00771D22 /* XGPlayerFullScreenController.m */,
+				F23D2D271F57B98B00771D22 /* XGPlayerTransitionAnimator.h */,
+				F23D2D281F57B98B00771D22 /* XGPlayerTransitionAnimator.m */,
+				F23D2D291F57B98B00771D22 /* XGPlayerView.h */,
+				F23D2D2A1F57B98B00771D22 /* XGPlayerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2077AC31F39D14800B0A8D5 /* XGPlayer-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2077ADB1F39D14800B0A8D5 /* Build configuration list for PBXNativeTarget "XGPlayer-master" */;
+			buildPhases = (
+				F2077AC01F39D14800B0A8D5 /* Sources */,
+				F2077AC11F39D14800B0A8D5 /* Frameworks */,
+				F2077AC21F39D14800B0A8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XGPlayer-master";
+			productName = "XGPlayer-master";
+			productReference = F2077AC41F39D14800B0A8D5 /* XGPlayer-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2077ABC1F39D14800B0A8D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高昇";
+				TargetAttributes = {
+					F2077AC31F39D14800B0A8D5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8ULG8GXYJC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2077ABF1F39D14800B0A8D5 /* Build configuration list for PBXProject "XGPlayer-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2077ABB1F39D14800B0A8D5;
+			productRefGroup = F2077AC51F39D14800B0A8D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2077AC31F39D14800B0A8D5 /* XGPlayer-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2077AC21F39D14800B0A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2077AD71F39D14800B0A8D5 /* LaunchScreen.storyboard in Resources */,
+				F2077AD41F39D14800B0A8D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2077AC01F39D14800B0A8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23D2D2D1F57B98B00771D22 /* CALayer+XGRotateAnimation.m in Sources */,
+				F2077AE51F39D9F700B0A8D5 /* SecondViewController.m in Sources */,
+				F23D2D321F57B98B00771D22 /* XGPlayerFullScreenController.m in Sources */,
+				F23D2D301F57B98B00771D22 /* XGPlayerHandler.m in Sources */,
+				F2077AE21F39D7E100B0A8D5 /* BaseNavigationController.m in Sources */,
+				F23D2D351F57B98B00771D22 /* XGPlayer.m in Sources */,
+				F23D2D2E1F57B98B00771D22 /* UINavigationController+XGRotation.m in Sources */,
+				F2077ACF1F39D14800B0A8D5 /* ViewController.m in Sources */,
+				F23D2D341F57B98B00771D22 /* XGPlayerView.m in Sources */,
+				F23D2D311F57B98B00771D22 /* XGPlayerControlView.m in Sources */,
+				F2077ACC1F39D14800B0A8D5 /* AppDelegate.m in Sources */,
+				F23D2D331F57B98B00771D22 /* XGPlayerTransitionAnimator.m in Sources */,
+				F2077AC91F39D14800B0A8D5 /* main.m in Sources */,
+				F23D2D2F1F57B98B00771D22 /* UIViewController+XGRotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2077AD51F39D14800B0A8D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2077AD61F39D14800B0A8D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2077AD91F39D14800B0A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2077ADA1F39D14800B0A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2077ADC1F39D14800B0A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ULG8GXYJC;
+				INFOPLIST_FILE = "XGPlayer-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaogao.XGPlayer-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2077ADD1F39D14800B0A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ULG8GXYJC;
+				INFOPLIST_FILE = "XGPlayer-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaogao.XGPlayer-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2077ABF1F39D14800B0A8D5 /* Build configuration list for PBXProject "XGPlayer-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2077AD91F39D14800B0A8D5 /* Debug */,
+				F2077ADA1F39D14800B0A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2077ADB1F39D14800B0A8D5 /* Build configuration list for PBXNativeTarget "XGPlayer-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2077ADC1F39D14800B0A8D5 /* Debug */,
+				F2077ADD1F39D14800B0A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2077ABC1F39D14800B0A8D5 /* Project object */;
+}
